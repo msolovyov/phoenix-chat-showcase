@@ -1,0 +1,8 @@
+run_erl [320] Sat Feb 27 21:32:08 2016
+Args before exec of shell:
+run_erl [320] Sat Feb 27 21:32:08 2016
+argv[0] = sh
+run_erl [320] Sat Feb 27 21:32:08 2016
+argv[1] = -c
+run_erl [320] Sat Feb 27 21:32:08 2016
+argv[2] = exec "/app/rel/chat/bin/chat" "console"

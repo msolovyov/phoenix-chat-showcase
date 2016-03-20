@@ -1,0 +1,1735 @@
+
+=====
+===== LOGGING STARTED Sat Feb 27 20:04:51 UTC 2016
+=====
+Using /app/rel/chat/releases/0.0.1/chat.sh
+Exec: /app/rel/chat/erts-7.2/bin/erlexec -boot /app/rel/chat/releases/0.0.1/chat -boot_var ERTS_LIB_DIR /app/rel/chat/erts-7.2/../lib -env ERL_LIBS /app/rel/chat/lib -config /app/rel/chat/running-config/sys.config -args_file /app/rel/chat/running-config/vm.args -user Elixir.IEx.CLI -extra --no-halt +iex -- console
+Root: /app/rel/chat
+/app/rel/chat
+Erlang/OTP 18 [erts-7.2] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+20:04:53.296 [info] Running Chat.Endpoint with Cowboy using http on port 8888
+Interactive Elixir (1.2.3) - press Ctrl+C to exit (type h() ENTER for help)
+iex(chat@127.0.0.1)1> 
+===== ALIVE Sat Feb 27 20:19:53 UTC 2016
+
+===== ALIVE Sat Feb 27 20:34:53 UTC 2016
+
+===== ALIVE Sat Feb 27 20:49:53 UTC 2016
+
+===== ALIVE Sat Feb 27 21:04:53 UTC 2016
+21:05:11.105 request_id=flg6ce1f29rfm30itdt25lkvf8idb65v [info] GET /
+21:05:11.403 request_id=flg6ce1f29rfm30itdt25lkvf8idb65v [info] Sent 200 in 294ms
+21:08:30.445 request_id=9h73v5q4b8b8qnmo8mvnaeavgfvvgoef [info] GET /
+21:08:30.445 request_id=9h73v5q4b8b8qnmo8mvnaeavgfvvgoef [info] Sent 200 in 278µs
+21:08:30.832 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:08:31.843 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:08:33.851 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:08:38.858 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:08:48.868 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:08:58.876 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:03.844 request_id=4ouc7eeql4is9fnknc02tfhrlo239bjd [info] GET /
+21:09:03.845 request_id=4ouc7eeql4is9fnknc02tfhrlo239bjd [info] Sent 200 in 201µs
+21:09:03.979 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:05.031 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:07.202 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:08.881 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:12.231 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:18.890 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:22.244 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:28.898 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:32.256 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:38.909 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:42.267 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:48.917 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:52.279 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:09:58.924 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:02.290 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:08.933 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:12.298 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:18.941 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:26.974 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:28.946 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:38.951 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:48.956 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:48.985 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:10:58.964 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:11:08.967 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:11:18.973 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:11:21.996 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:11:28.977 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:11:39.443 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:11:50.442 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:12:01.443 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:12:12.440 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:12:23.439 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:12:34.443 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:12:45.440 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:12:56.438 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:13:07.437 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:13:18.438 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:13:29.442 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:13:40.441 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:13:51.436 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:14:02.436 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:14:13.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:14:24.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:14:35.440 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:14:46.436 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:14:57.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:15:08.450 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:15:19.444 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:15:30.436 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:15:41.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:15:52.433 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:03.433 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:13.439 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+
+=====
+===== LOGGING STARTED Sat Feb 27 21:16:17 UTC 2016
+=====
+Using /app/rel/chat/releases/0.0.1/chat.sh
+Exec: /app/rel/chat/erts-7.2/bin/erlexec -boot /app/rel/chat/releases/0.0.1/chat -boot_var ERTS_LIB_DIR /app/rel/chat/erts-7.2/../lib -env ERL_LIBS /app/rel/chat/lib -config /app/rel/chat/running-config/sys.config -args_file /app/rel/chat/running-config/vm.args -user Elixir.IEx.CLI -extra --no-halt +iex -- console
+Root: /app/rel/chat
+/app/rel/chat
+{error_logger,{{2016,2,27},{21,16,18}},"Protocol: ~tp: the name chat@127.0.0.1 seems to be in use by another Erlang node",["inet_tcp"]}
+{error_logger,{{2016,2,27},{21,16,18}},crash_report,[[{initial_call,{net_kernel,init,['Argument__1']}},{pid,<0.23.0>},{registered_name,[]},{error_info,{exit,{error,badarg},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}},{ancestors,[net_sup,kernel_sup,<0.10.0>]},{messages,[]},{links,[#Port<0.399>,<0.20.0>]},{dictionary,[{longnames,true}]},{trap_exit,true},{status,running},{heap_size,376},{stack_size,27},{reductions,796}],[]]}
+{error_logger,{{2016,2,27},{21,16,18}},supervisor_report,[{supervisor,{local,net_sup}},{errorContext,start_error},{reason,{'EXIT',nodistribution}},{offender,[{pid,undefined},{id,net_kernel},{mfargs,{net_kernel,start_link,[['chat@127.0.0.1',longnames]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]}]}
+{error_logger,{{2016,2,27},{21,16,18}},supervisor_report,[{supervisor,{local,kernel_sup}},{errorContext,start_error},{reason,{shutdown,{failed_to_start_child,net_kernel,{'EXIT',nodistribution}}}},{offender,[{pid,undefined},{id,net_sup},{mfargs,{erl_distribution,start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]}]}
+{error_logger,{{2016,2,27},{21,16,18}},crash_report,[[{initial_call,{application_master,init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{pid,<0.9.0>},{registered_name,[]},{error_info,{exit,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,net_kernel,{'EXIT',nodistribution}}}}},{kernel,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}},{ancestors,[<0.8.0>]},{messages,[{'EXIT',<0.10.0>,normal}]},{links,[<0.8.0>,<0.7.0>]},{dictionary,[]},{trap_exit,true},{status,running},{heap_size,376},{stack_size,27},{reductions,117}],[]]}
+{error_logger,{{2016,2,27},{21,16,18}},std_info,[{application,kernel},{exited,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,net_kernel,{'EXIT',nodistribution}}}}},{kernel,start,[normal,[]]}}},{type,permanent}]}
+{"Kernel pid terminated",application_controller,"{application_start_failure,kernel,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,net_kernel,{'EXIT',nodistribution}}}}},{kernel,start,[normal,[]]}}}"}
+
+Crash dump is being written to: erl_crash.dump...21:16:20.692 request_id=omuld36bqkvf05vj1npbffntq5mdorij [info] GET /
+21:16:20.693 request_id=omuld36bqkvf05vj1npbffntq5mdorij [info] Sent 200 in 386µs
+21:16:21.061 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:22.078 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:24.086 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:24.806 request_id=5avcg7sb5ud96gib4cqh5pm0g5t3t66j [info] GET /
+21:16:24.806 request_id=5avcg7sb5ud96gib4cqh5pm0g5t3t66j [info] Sent 200 in 274µs
+21:16:25.136 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:26.145 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:28.150 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:33.156 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+done
+Kernel pid terminated (application_controller) ({application_start_failure,kernel,{{shutdown,{failed_to_start_child,net_sup,{shutdown,{failed_to_start_child,net_kernel,{'EXIT',nodistribution}}}}},{k
+21:16:43.160 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:16:53.167 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:17:03.174 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:17:13.180 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:17:23.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:17:34.436 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:17:45.430 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:17:56.431 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:18:07.433 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:18:18.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:18:29.435 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:18:40.436 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:18:51.432 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:19:02.433 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:19:13.429 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:19:24.430 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:19:35.428 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:19:46.427 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+21:19:57.433 [error] Could not check origin for Phoenix.Socket transport.
+
+This happens when you are attempting a socket connection to
+a different host than the one configured in your config/
+files. For example, in development the host is configured
+to "localhost" but you may be trying to access it from
+"127.0.0.1". To fix this issue, you may either:
+
+  1. update [url: [host: ...]] to your actual host in the
+     config file for your current environment (recommended)
+
+  2. pass the :check_origin option when configuring your
+     endpoint or when configuring the transport in your
+     UserSocket module, explicitly outlining which origins
+     are allowed:
+
+        check_origin: ["https://example.com",
+                       "//another.com:888", "//other.com"]
+
+
+=====
+===== LOGGING STARTED Sat Feb 27 21:20:46 UTC 2016
+=====
+Using /app/rel/chat/releases/0.0.1/chat.sh
+Exec: /app/rel/chat/erts-7.2/bin/erlexec -boot /app/rel/chat/releases/0.0.1/chat -boot_var ERTS_LIB_DIR /app/rel/chat/erts-7.2/../lib -env ERL_LIBS /app/rel/chat/lib -config /app/rel/chat/running-config/sys.config -args_file /app/rel/chat/running-config/vm.args -user Elixir.IEx.CLI -extra --no-halt +iex -- console
+Root: /app/rel/chat
+/app/rel/chat
+Erlang/OTP 18 [erts-7.2] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+21:20:47.935 [info] Running Chat.Endpoint with Cowboy using http on port 8888
+Interactive Elixir (1.2.3) - press Ctrl+C to exit (type h() ENTER for help)
+iex(chat@127.0.0.1)1> 21:21:21.613 request_id=cbp43knhm6mcm8o0fcl09bic2k54qai4 [info] GET /
+21:21:21.903 request_id=cbp43knhm6mcm8o0fcl09bic2k54qai4 [info] Sent 200 in 286ms
+21:21:22.296 [info] JOIN rooms:lobby to Chat.RoomChannel
+  Transport:  Phoenix.Transports.WebSocket
+  Parameters: %{}
+21:21:22.336 [info] Replied rooms:lobby :ok
+21:21:55.225 request_id=kl73locbbqaah79i7lobiju45rlhhv1s [info] GET /
+21:21:55.225 request_id=kl73locbbqaah79i7lobiju45rlhhv1s [info] Sent 200 in 336µs
+21:21:55.788 [info] JOIN rooms:lobby to Chat.RoomChannel
+  Transport:  Phoenix.Transports.WebSocket
+  Parameters: %{}
+21:21:55.788 [info] Replied rooms:lobby :ok
+21:22:15.452 request_id=vlmrblkloij3k31ipi6a35hd8e6nf9mt [info] GET /
+21:22:15.452 request_id=vlmrblkloij3k31ipi6a35hd8e6nf9mt [info] Sent 200 in 274µs
+21:22:15.571 [info] JOIN rooms:lobby to Chat.RoomChannel
+  Transport:  Phoenix.Transports.WebSocket
+  Parameters: %{}
+21:22:15.572 [info] Replied rooms:lobby :ok
+21:22:20.728 [info] JOIN rooms:lobby to Chat.RoomChannel
+  Transport:  Phoenix.Transports.WebSocket
+  Parameters: %{}
+21:22:20.729 [info] Replied rooms:lobby :ok
+21:22:26.862 request_id=ms8d7l4iglvcv0gcc2s1sviflop4ut8v [info] GET /
+21:22:26.863 request_id=ms8d7l4iglvcv0gcc2s1sviflop4ut8v [info] Sent 200 in 473µs
+21:22:26.995 [info] JOIN rooms:lobby to Chat.RoomChannel
+  Transport:  Phoenix.Transports.WebSocket
+  Parameters: %{}
+21:22:26.995 [info] Replied rooms:lobby :ok
+
+=====
+===== LOGGING STARTED Sat Feb 27 21:32:08 UTC 2016
+=====
+Using /app/rel/chat/releases/0.0.1/chat.sh
+Exec: /app/rel/chat/erts-7.2/bin/erlexec -boot /app/rel/chat/releases/0.0.1/chat -boot_var ERTS_LIB_DIR /app/rel/chat/erts-7.2/../lib -env ERL_LIBS /app/rel/chat/lib -config /app/rel/chat/running-config/sys.config -args_file /app/rel/chat/running-config/vm.args -user Elixir.IEx.CLI -extra --no-halt +iex -- console
+Root: /app/rel/chat
+/app/rel/chat
+Erlang/OTP 18 [erts-7.2] [source] [64-bit] [async-threads:10] [hipe] [kernel-poll:false]
+
+21:32:11.071 [info] Running Chat.Endpoint with Cowboy using http on port 80
+Interactive Elixir (1.2.3) - press Ctrl+C to exit (type h() ENTER for help)
+iex(chat@127.0.0.1)1> 
